@@ -8,7 +8,7 @@ int main() {
     string userInput;
 
     cout << "Enter your text:";
-    cin >> userInput;
+    getline(cin, userInput);
 
     string border = string(userInput.length() + 4, '*');
 
